@@ -1,0 +1,8 @@
+name: rlgolf
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pillow
+prefix: /opt/anaconda3/envs/rlgolf
