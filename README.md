@@ -79,12 +79,12 @@ Q = UCB()
 #Q\ = Q_function()
 
 ## Limitations
--The “swing” randomness can occasionally overshoot terminal states; the code clips movement to state 7.
--The rollout policy after training is greedy: argmax(Q[state]).
+- The “swing” randomness can occasionally overshoot terminal states; the code clips movement to state 7.
+- The rollout policy after training is greedy: argmax(Q[state]).
 
 ## Future Improvements 
--Log and plot reward convergence over training iterations
--Run multiple episodes and report average performance
--Add alternative exploration strategies (ε-greedy, softmax)
+- Log and plot reward convergence over training iterations
+- Run multiple episodes and report average performance
+- Add alternative exploration strategies (ε-greedy, softmax)
 
 
